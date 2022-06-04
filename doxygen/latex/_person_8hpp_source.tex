@@ -1,0 +1,34 @@
+\hypertarget{_person_8hpp_source}{}\doxysection{Person.\+hpp}
+\label{_person_8hpp_source}\index{C:/Users/User/source/repos/Objektinis\_programavimas\_1.5/Person.hpp@{C:/Users/User/source/repos/Objektinis\_programavimas\_1.5/Person.hpp}}
+\mbox{\hyperlink{_person_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{keyword}{using }std::string;}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{class }\mbox{\hyperlink{class_person}{Person}} \{}
+\DoxyCodeLine{8 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{9     \textcolor{keywordtype}{string} \mbox{\hyperlink{class_person_a10706125d01fcc75af3cb89d39465067}{vardas}};}
+\DoxyCodeLine{10     \textcolor{keywordtype}{string} \mbox{\hyperlink{class_person_a0f7720daa479637fbeddb17121f08086}{pavarde}};}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{public}:}
+\DoxyCodeLine{13     \textcolor{keyword}{explicit} \mbox{\hyperlink{class_person_a9c479a5d0ef07e2e1b49bd0ac9b07c29}{Person}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string}\& \mbox{\hyperlink{class_person_a10706125d01fcc75af3cb89d39465067}{vardas}} = \textcolor{stringliteral}{"{}"{}}, \textcolor{keyword}{const} \textcolor{keywordtype}{string}\& \mbox{\hyperlink{class_person_a0f7720daa479637fbeddb17121f08086}{pavarde}} = \textcolor{stringliteral}{"{}"{}}) \{}
+\DoxyCodeLine{14         this-\/>vardas = \mbox{\hyperlink{class_person_a10706125d01fcc75af3cb89d39465067}{vardas}};}
+\DoxyCodeLine{15         this-\/>pavarde = \mbox{\hyperlink{class_person_a0f7720daa479637fbeddb17121f08086}{pavarde}};}
+\DoxyCodeLine{16     \}}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18     \textcolor{keyword}{virtual} \textcolor{keyword}{const} \textcolor{keywordtype}{string}\& \mbox{\hyperlink{class_person_a29b7c7f6d99a0631c7bcd43e7ebcfe5f}{grazintiVarda}}() \textcolor{keyword}{const} = 0;}
+\DoxyCodeLine{19     \textcolor{keyword}{virtual} \textcolor{keyword}{const} \textcolor{keywordtype}{string}\& \mbox{\hyperlink{class_person_a541195d28bbcf79da19001cc77f92e2d}{grazintiPavarde}}() \textcolor{keyword}{const} = 0;}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_person_ac87b30e8b75b9257581a89933bfc087e}{nustatytiVarda}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string}\& \mbox{\hyperlink{class_person_a10706125d01fcc75af3cb89d39465067}{vardas}}) \{}
+\DoxyCodeLine{22         this-\/>vardas = \mbox{\hyperlink{class_person_a10706125d01fcc75af3cb89d39465067}{vardas}};}
+\DoxyCodeLine{23     \}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_person_a28345655f23ef5008b902e570cd4390c}{nustatytiPavarde}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string}\& \mbox{\hyperlink{class_person_a0f7720daa479637fbeddb17121f08086}{pavarde}}) \{}
+\DoxyCodeLine{26         this-\/>pavarde = \mbox{\hyperlink{class_person_a0f7720daa479637fbeddb17121f08086}{pavarde}};}
+\DoxyCodeLine{27     \}}
+\DoxyCodeLine{28 \};}
+
+\end{DoxyCode}
