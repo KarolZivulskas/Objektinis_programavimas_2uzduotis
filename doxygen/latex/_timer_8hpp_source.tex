@@ -1,0 +1,22 @@
+\hypertarget{_timer_8hpp_source}{}\doxysection{Timer.\+hpp}
+\label{_timer_8hpp_source}\index{C:/Users/User/source/repos/Objektinis\_programavimas\_1.5/Timer.hpp@{C:/Users/User/source/repos/Objektinis\_programavimas\_1.5/Timer.hpp}}
+\mbox{\hyperlink{_timer_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <chrono>}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{keyword}{class }\mbox{\hyperlink{class_timer}{Timer}} \{}
+\DoxyCodeLine{6     \textcolor{keyword}{using }clock = std::chrono::high\_resolution\_clock;}
+\DoxyCodeLine{7     \textcolor{keyword}{using }duration = std::chrono::duration<double>;}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{keyword}{private}:}
+\DoxyCodeLine{10     std::chrono::time\_point<clock> startTime;}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{public}:}
+\DoxyCodeLine{13     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_timer_a6a89a613c2af9b0d1e5f7e4ba9e46c54}{elapsed}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{14     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_timer_a9020542d73357a4eef512eefaf57524b}{reset}}();}
+\DoxyCodeLine{15     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_timer_a3a8b5272198d029779dc9302a54305a8}{start}}();}
+\DoxyCodeLine{16 \};}
+
+\end{DoxyCode}

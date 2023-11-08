@@ -1,0 +1,65 @@
+\hypertarget{_students_8hpp_source}{}\doxysection{Students.\+hpp}
+\label{_students_8hpp_source}\index{C:/Users/User/source/repos/Objektinis\_programavimas\_1.5/Students.hpp@{C:/Users/User/source/repos/Objektinis\_programavimas\_1.5/Students.hpp}}
+\mbox{\hyperlink{_students_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <algorithm>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <deque>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <iomanip>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <list>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <sstream>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_comparator_8hpp}{Comparator.hpp}}"{}}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_console_8hpp}{Console.hpp}}"{}}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_definitions_8hpp}{Definitions.hpp}}"{}}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_file_8hpp}{File.hpp}}"{}}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_grades_8hpp}{Grades.hpp}}"{}}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_r_n_d_8hpp}{RND.hpp}}"{}}}
+\DoxyCodeLine{18 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_student_8hpp}{Student.hpp}}"{}}}
+\DoxyCodeLine{19 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_table_8hpp}{Table.hpp}}"{}}}
+\DoxyCodeLine{20 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_timer_8hpp}{Timer.hpp}}"{}}}
+\DoxyCodeLine{21 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_utils_8hpp}{Utils.hpp}}"{}}}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 \textcolor{keyword}{using }std::cout;}
+\DoxyCodeLine{24 \textcolor{keyword}{using }std::deque;}
+\DoxyCodeLine{25 \textcolor{keyword}{using }std::endl;}
+\DoxyCodeLine{26 \textcolor{keyword}{using }std::fixed;}
+\DoxyCodeLine{27 \textcolor{keyword}{using }std::left;}
+\DoxyCodeLine{28 \textcolor{keyword}{using }std::list;}
+\DoxyCodeLine{29 \textcolor{keyword}{using }std::setprecision;}
+\DoxyCodeLine{30 \textcolor{keyword}{using }std::setw;}
+\DoxyCodeLine{31 \textcolor{keyword}{using }std::sort;}
+\DoxyCodeLine{32 \textcolor{keyword}{using }std::string;}
+\DoxyCodeLine{33 \textcolor{keyword}{using }std::stringstream;}
+\DoxyCodeLine{34 \textcolor{keyword}{using }std::vector;}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_students}{Students}} \{}
+\DoxyCodeLine{37     \textcolor{keywordtype}{void} \mbox{\hyperlink{namespace_students_a11ff0abd7804749dd721d9fcfa6f9955}{Filtruoti}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string}\&, \textcolor{keyword}{const} \textcolor{keywordtype}{string}\&, \textcolor{keyword}{const} \textcolor{keywordtype}{int}\&);}
+\DoxyCodeLine{38     \textcolor{keywordtype}{void} \mbox{\hyperlink{namespace_students_adbb06b09cfc494873d55b1001ecec6ff}{GeneruotiIrasus}}(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{40     \textcolor{keyword}{template} <\textcolor{keyword}{class} A>}
+\DoxyCodeLine{41     \textcolor{keywordtype}{void} \mbox{\hyperlink{namespace_students_af1408ce9f1c96e97d7be424da6d0c0ec}{SpausdintiFormatuota}}(A\&, \textcolor{keyword}{const} \textcolor{keywordtype}{string}\&);}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43     \textcolor{keyword}{template} <\textcolor{keyword}{class} A>}
+\DoxyCodeLine{44     \textcolor{keywordtype}{void} \mbox{\hyperlink{namespace_students_a13af050de96c23c186017a6c74a7a828}{SutvarkytiStudentus}}(A\&, \textcolor{keyword}{const} \textcolor{keywordtype}{string}\&);}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{46     \textcolor{keyword}{template} <\textcolor{keyword}{class} A>}
+\DoxyCodeLine{47     \textcolor{keywordtype}{void} \mbox{\hyperlink{namespace_students_a13b7be3bbe11d7d6d6862b40169acec3}{SkaitytiIsFailo}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string}\&, A\&);}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49     \textcolor{keyword}{template} <\textcolor{keyword}{class} A>}
+\DoxyCodeLine{50     \textcolor{keywordtype}{void} \mbox{\hyperlink{namespace_students_a22b91fc9dea8783c06a643e0ea53f2d5}{Issaugoti}}(A\&, \textcolor{keyword}{const} \textcolor{keywordtype}{string}\&);}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{52     \textcolor{keyword}{template} <\textcolor{keyword}{class} A>}
+\DoxyCodeLine{53     \textcolor{keywordtype}{void} \mbox{\hyperlink{namespace_students_ae25ac951ed4d05d033e416438d7b474d}{RikiuotiPagalGalutiniMazejant}}(A\&);}
+\DoxyCodeLine{54     \textcolor{keywordtype}{void} \mbox{\hyperlink{namespace_students_ae25ac951ed4d05d033e416438d7b474d}{RikiuotiPagalGalutiniMazejant}}(list<Student>\&);}
+\DoxyCodeLine{55 }
+\DoxyCodeLine{56     \textcolor{keyword}{template} <\textcolor{keyword}{class} A>}
+\DoxyCodeLine{57     \textcolor{keywordtype}{void} \mbox{\hyperlink{namespace_students_ad0a9ec4123441cfa5acf5e54fc219249}{RikiuotiPagalVardaDidejant}}(A\&);}
+\DoxyCodeLine{58     \textcolor{keywordtype}{void} \mbox{\hyperlink{namespace_students_ad0a9ec4123441cfa5acf5e54fc219249}{RikiuotiPagalVardaDidejant}}(list<Student>\&);}
+\DoxyCodeLine{59 \}}
+
+\end{DoxyCode}
